@@ -8,3 +8,6 @@ def my_find(collection)
   end
 end
 
+collection = [1,2,3,4]
+
+my_find(collection) {|i| i.even?}
